@@ -18,6 +18,8 @@
   },
   "scripts": {
     "postinstall": "bower install",
+    
+    "cibuild": "ng test --single -run --cc && ng build --prod --no-progress",
 
     "update-deps": "npm update",
     "postupdate-deps": "bower update",
