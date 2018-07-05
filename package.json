@@ -19,7 +19,9 @@
   "scripts": {
     "postinstall": "bower install",
     
-    "build": "ng test --single -run --cc && ng build --prod --no-progress",
+    "test": "ng test",
+    
+    "build": "ng build --prod --no-progress",
 
     "update-deps": "npm update",
     "postupdate-deps": "bower update",
