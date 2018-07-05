@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "ng build --prod",
+    "test-coverage": "ng test --code-coverage",
     "update-deps": "npm update",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1 ./app",
